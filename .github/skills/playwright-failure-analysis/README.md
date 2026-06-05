@@ -1,12 +1,12 @@
 🚀 How to Use It
 ----------------------
-1 Run your Playwright test suite.
+1. Run your Playwright test suite.
 
-2 If tests fail and generate a playwright-report/results.xml file, open the GitHub Copilot Chat in your IDE.
+2. If tests fail and generate a playwright-report/results.xml file, open the GitHub Copilot Chat in your IDE.
 
-3 Ensure Copilot is in Agent Mode (if applicable to your IDE version).
+3. Ensure Copilot is in Agent Mode (if applicable to your IDE version).
 
-4 Prompt Copilot with any of the following natural language triggers:
+4. Prompt Copilot with any of the following natural language triggers:
 
 	"Why did my test suite fail?"
 
@@ -14,7 +14,7 @@
 
 	"Summarize the latest Playwright run."
 
-5 Copilot will automatically recognize the intent, trigger the skill, and begin analyzing your code.
+5. Copilot will automatically recognize the intent, trigger the skill, and begin analyzing your code.
 
 ⚙️ How It Works Under the Hood
 ---------------------------------
