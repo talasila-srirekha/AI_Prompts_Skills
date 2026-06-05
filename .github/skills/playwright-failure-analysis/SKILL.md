@@ -26,7 +26,18 @@ description: Locates, parses, and diagnoses Playwright test failures from the JU
    Count the total number of failures. Do NOT dump the raw XML back to the user.
    
    - **If there are 5 or fewer failures:** 
-     Use your file reading tool to read the format from `chat-template.md` in this skill's folder. Output the detailed analysis, root causes, and proposed code fixes directly in the chat window matching that exact format.
+   Do NOT read external templates. Print the analysis directly in the chat window using this exact structure:
+      
+   ```markdown
+      ## 🚨 Playwright Failure Summary
+      **Total Failures:** [Count]
+      
+      ### [Root Cause]
+      * **Affected Tests:** `[Test Name]` (`[File Path]:[Line Number]`)
+      * **Diagnosis:** [Brief explanation]
+      * **Proposed Fix:** 
+        ```typescript
+   // Suggested code change here
      
    - **If there are MORE than 5 failures:** 
      Do NOT print the detailed analysis in the chat. Instead:
