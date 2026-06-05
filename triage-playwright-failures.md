@@ -1,4 +1,9 @@
-## Skill: Playwright Failure Analysis & Resolution
+---
+name: playwright-failure-analysis
+description: Locates, parses, and diagnoses Playwright test failures from the JUnit XML report. Use when the user asks why tests failed, debugging CI runs, or summarizing Playwright errors.
+---
+
+# Playwright Failure Analysis & Resolution
 
 **Objective:** Automatically locate, parse, and diagnose Playwright test failures by reading the JUnit XML report using your standard file access tools, and efficiently report the results based on the volume of failures.
 
@@ -6,7 +11,7 @@
 - The user asks "Why did the test suite fail?", "Analyze my test failures", or "Summarize the latest test run."
 - You run a test script using your terminal tool and receive a non-zero exit code.
 
-**Step-by-Step Execution Workflow:**
+## Step-by-Step Execution Workflow
 
 1. **Locate the Report:** 
    Use your file reading tool to open the Playwright JUnit report. The default path is `playwright-report/results.xml`. If it is not there, check `playwright.config.ts` for the `junit` output file path.
